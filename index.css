@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: black;
+}
+.tasklist{
+    position: absolute;
+    top: 10%;
+    left:15%;
+    color: white;
+    font-size: 32px;
+}
+.task{
+    font-weight: bold;
+}
+.plusicon{
+    position: absolute;
+    top: 10%;
+    right:15%;  
+}
+.icon{
+color:dodgerblue;
+font-size: 24px;
+
+}
+.additem{
+    color: white;   
+    font-size: 24px;
+}
+.container{
+width: 250px;
+height: 130px;
+position: absolute;
+top: 35%;
+left: 45%;
+background-color: white;
+border-radius: 5px;
+}
+.delete{
+    position: relative;
+    top: 10%;
+    right:15%;   
+}
+.anl{
+color:red;
+position: relative;
+    top: 22%;
+    left:28%;    
+}
+.inputbar{
+    text-align: center;
+    width: 215px;
+    height: 20px;
+    position: relative;
+    top: 25%;
+    left:5%;  
+    border-radius: 5px; 
+}
+.addb{
+    width: 60px;
+    height: 25px;
+    border-radius: 25px;
+    position: absolute;
+    top: 70%;
+    left:24%; 
+    background-color:brown;
+    border: none;
+}
+.closeb{
+    width: 60px;
+    height: 25px;
+    border-radius: 25px;
+    position: absolute;
+    top: 70%;
+    left:55%;
+    border: none;
+    background-color:brown;
+}
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.child{
+    width:150px;
+    height: 250px;
+    text-align: center;
+    padding-top: 20px;
+    color: tomato;
+    background-color: white;
+    border-radius: 5px;
+    /* position: absolute;
+    top: 25%;
+    left:35%; */
+}
+.iconol{
+    color:dodgerblue;
+    font-size: 18px;
+    position: absolute;
+    top: 55%;
+    left:32%; 
+}
+#error{
+    font-size: 12px;
+    position: absolute;
+    top: 58%;
+    left:28%;  
+}
+#message{
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 25%;
+    left:15%;
+}
+
+  .hidden{
+    display:none;
+  }
+ 
+
+
+  .index_box{
+    width:10rem;
+    height:15rem;
+    border:2px solid rgba(25, 66, 179, 0.801);
+    margin:0.5rem 0.25rem 2.5rem 0.25rem;
+    border-radius:1rem;
+ background-color: white;
+ position: relative;
+ top: 150px;
+ left: 0;
+  }
+  
+  .index_box>p:first-child{
+    font-size:1.9rem;
+    color: rgba(25, 66, 179, 0.801);
+    text-align: center;
+    margin:1.8rem 0 0.5rem 0;
+  }
+  
+ 
+  
+ 
+  
+  .task_icon{
+    display:flex;
+    position: relative;
+    top:8rem;
+    left:5rem;
+  }
+  
+  .task_plus{
+    color:#1976d2;
+    font-size:1rem;
+    display:absolute;
+    cursor: pointer;
+  }
+  
+  .task_trash{
+    color:red;
+    font-size:1rem;
+    margin:0 0 0 0.5rem;
+    cursor: pointer;
+  }
+  
+  #continer_box{
+    margin:0.2rem 3rem 0 10rem;
+    width:80%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:space-between;
+  }
+ 
+  
+  
